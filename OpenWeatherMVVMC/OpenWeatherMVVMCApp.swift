@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import OpenWeatherDataAccess
+let service = OpenWeatherService()
 
 @main
 struct OpenWeatherMVVMCApp: App {
+    @StateObject var appCoordinator = AppCoordinator()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            MainView(viewModel: .mock())
+//            ContentView()
+            AppCoordinatorView(coordinator: appCoordinator)
         }
     }
 }

@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431DE6A42A2C7101005BAEF7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 431DE6A32A2C7101005BAEF7 /* Kingfisher */; };
+		431DE6A62A2C73EB005BAEF7 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE6A52A2C73EB005BAEF7 /* ForecastView.swift */; };
+		431DE6A82A2C79BB005BAEF7 /* ForecastItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE6A72A2C79BB005BAEF7 /* ForecastItemView.swift */; };
+		431DE6AC2A2C7AC4005BAEF7 /* OpenWeatherBussinessLogic in Frameworks */ = {isa = PBXBuildFile; productRef = 431DE6AB2A2C7AC4005BAEF7 /* OpenWeatherBussinessLogic */; };
+		431DE6AE2A2C7ACB005BAEF7 /* OpenWeatherDataAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 431DE6AD2A2C7ACB005BAEF7 /* OpenWeatherDataAccess */; };
+		431DE6B02A2C81B3005BAEF7 /* ForecastDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE6AF2A2C81B3005BAEF7 /* ForecastDetail.swift */; };
+		43522DBB2A6D81CC00565F9F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43522DBA2A6D81CC00565F9F /* AppCoordinator.swift */; };
+		43522DBE2A6ED10000565F9F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43522DBD2A6ED10000565F9F /* MainView.swift */; };
+		43522DC12A71762C00565F9F /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43522DC02A71762C00565F9F /* LazyView.swift */; };
+		43522DC42A7177B700565F9F /* View+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43522DC32A7177B700565F9F /* View+Navigation.swift */; };
 		435B4CD42A2AFAA200922274 /* OpenWeatherMVVMCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B4CD32A2AFAA200922274 /* OpenWeatherMVVMCApp.swift */; };
-		435B4CD62A2AFAA200922274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B4CD52A2AFAA200922274 /* ContentView.swift */; };
 		435B4CD82A2AFAA400922274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435B4CD72A2AFAA400922274 /* Assets.xcassets */; };
 		435B4CDC2A2AFAA400922274 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435B4CDB2A2AFAA400922274 /* Preview Assets.xcassets */; };
 		435B4CE62A2AFAA500922274 /* OpenWeatherMVVMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B4CE52A2AFAA500922274 /* OpenWeatherMVVMCTests.swift */; };
 		435B4CF02A2AFAA500922274 /* OpenWeatherMVVMCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B4CEF2A2AFAA500922274 /* OpenWeatherMVVMCUITests.swift */; };
 		435B4CF22A2AFAA500922274 /* OpenWeatherMVVMCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B4CF12A2AFAA500922274 /* OpenWeatherMVVMCUITestsLaunchTests.swift */; };
+		437C5E6B2A8A90E200329CCE /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C5E6A2A8A90E200329CCE /* SearchResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		431DE6A52A2C73EB005BAEF7 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		431DE6A72A2C79BB005BAEF7 /* ForecastItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastItemView.swift; sourceTree = "<group>"; };
+		431DE6A92A2C7A27005BAEF7 /* OpenWeatherBussinessLogic */ = {isa = PBXFileReference; lastKnownFileType = text; name = OpenWeatherBussinessLogic; path = Packages/OpenWeatherBussinessLogic; sourceTree = SOURCE_ROOT; };
+		431DE6AF2A2C81B3005BAEF7 /* ForecastDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetail.swift; sourceTree = "<group>"; };
+		4325F57C2A2B0462003EC6E6 /* OpenWeatherDataAccess */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OpenWeatherDataAccess; sourceTree = "<group>"; };
+		43522DBA2A6D81CC00565F9F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		43522DBD2A6ED10000565F9F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		43522DC02A71762C00565F9F /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		43522DC32A7177B700565F9F /* View+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigation.swift"; sourceTree = "<group>"; };
 		435B4CD02A2AFAA200922274 /* OpenWeatherMVVMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeatherMVVMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		435B4CD32A2AFAA200922274 /* OpenWeatherMVVMCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMVVMCApp.swift; sourceTree = "<group>"; };
-		435B4CD52A2AFAA200922274 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		435B4CD72A2AFAA400922274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		435B4CD92A2AFAA400922274 /* OpenWeatherMVVMC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenWeatherMVVMC.entitlements; sourceTree = "<group>"; };
 		435B4CDB2A2AFAA400922274 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +63,8 @@
 		435B4CEB2A2AFAA500922274 /* OpenWeatherMVVMCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenWeatherMVVMCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		435B4CEF2A2AFAA500922274 /* OpenWeatherMVVMCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMVVMCUITests.swift; sourceTree = "<group>"; };
 		435B4CF12A2AFAA500922274 /* OpenWeatherMVVMCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMVVMCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		437C5E6A2A8A90E200329CCE /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		437C5E6C2A8D298400329CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431DE6AC2A2C7AC4005BAEF7 /* OpenWeatherBussinessLogic in Frameworks */,
+				431DE6A42A2C7101005BAEF7 /* Kingfisher in Frameworks */,
+				431DE6AE2A2C7ACB005BAEF7 /* OpenWeatherDataAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +95,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		431DE6AA2A2C7AC4005BAEF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43522DB92A6D819E00565F9F /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				43522DBA2A6D81CC00565F9F /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		43522DBC2A6D8C0A00565F9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				437C5E692A8A903000329CCE /* Cells */,
+				43522DBD2A6ED10000565F9F /* MainView.swift */,
+				431DE6A52A2C73EB005BAEF7 /* ForecastView.swift */,
+				431DE6AF2A2C81B3005BAEF7 /* ForecastDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43522DBF2A71760A00565F9F /* Ultils */ = {
+			isa = PBXGroup;
+			children = (
+				43522DC22A71774D00565F9F /* Extensions */,
+				43522DC02A71762C00565F9F /* LazyView.swift */,
+			);
+			path = Ultils;
+			sourceTree = "<group>";
+		};
+		43522DC22A71774D00565F9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43522DC32A7177B700565F9F /* View+Navigation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		435B4CC72A2AFAA200922274 = {
 			isa = PBXGroup;
 			children = (
+				435B4CFE2A2AFAF100922274 /* Packages */,
 				435B4CD22A2AFAA200922274 /* OpenWeatherMVVMC */,
 				435B4CE42A2AFAA500922274 /* OpenWeatherMVVMCTests */,
 				435B4CEE2A2AFAA500922274 /* OpenWeatherMVVMCUITests */,
 				435B4CD12A2AFAA200922274 /* Products */,
+				431DE6AA2A2C7AC4005BAEF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +163,11 @@
 		435B4CD22A2AFAA200922274 /* OpenWeatherMVVMC */ = {
 			isa = PBXGroup;
 			children = (
+				437C5E6C2A8D298400329CCE /* Info.plist */,
+				43522DBF2A71760A00565F9F /* Ultils */,
+				43522DBC2A6D8C0A00565F9F /* Views */,
+				43522DB92A6D819E00565F9F /* Coordinators */,
 				435B4CD32A2AFAA200922274 /* OpenWeatherMVVMCApp.swift */,
-				435B4CD52A2AFAA200922274 /* ContentView.swift */,
 				435B4CD72A2AFAA400922274 /* Assets.xcassets */,
 				435B4CD92A2AFAA400922274 /* OpenWeatherMVVMC.entitlements */,
 				435B4CDA2A2AFAA400922274 /* Preview Content */,
@@ -129,6 +200,24 @@
 			path = OpenWeatherMVVMCUITests;
 			sourceTree = "<group>";
 		};
+		435B4CFE2A2AFAF100922274 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				431DE6A92A2C7A27005BAEF7 /* OpenWeatherBussinessLogic */,
+				4325F57C2A2B0462003EC6E6 /* OpenWeatherDataAccess */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		437C5E692A8A903000329CCE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				431DE6A72A2C79BB005BAEF7 /* ForecastItemView.swift */,
+				437C5E6A2A8A90E200329CCE /* SearchResultCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +234,11 @@
 			dependencies = (
 			);
 			name = OpenWeatherMVVMC;
+			packageProductDependencies = (
+				431DE6A32A2C7101005BAEF7 /* Kingfisher */,
+				431DE6AB2A2C7AC4005BAEF7 /* OpenWeatherBussinessLogic */,
+				431DE6AD2A2C7ACB005BAEF7 /* OpenWeatherDataAccess */,
+			);
 			productName = OpenWeatherMVVMC;
 			productReference = 435B4CD02A2AFAA200922274 /* OpenWeatherMVVMC.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +311,9 @@
 				Base,
 			);
 			mainGroup = 435B4CC72A2AFAA200922274;
+			packageReferences = (
+				431DE6A22A2C7101005BAEF7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 435B4CD12A2AFAA200922274 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +356,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435B4CD62A2AFAA200922274 /* ContentView.swift in Sources */,
+				43522DBB2A6D81CC00565F9F /* AppCoordinator.swift in Sources */,
+				43522DBE2A6ED10000565F9F /* MainView.swift in Sources */,
 				435B4CD42A2AFAA200922274 /* OpenWeatherMVVMCApp.swift in Sources */,
+				437C5E6B2A8A90E200329CCE /* SearchResultCell.swift in Sources */,
+				43522DC12A71762C00565F9F /* LazyView.swift in Sources */,
+				431DE6B02A2C81B3005BAEF7 /* ForecastDetail.swift in Sources */,
+				431DE6A82A2C79BB005BAEF7 /* ForecastItemView.swift in Sources */,
+				431DE6A62A2C73EB005BAEF7 /* ForecastView.swift in Sources */,
+				43522DC42A7177B700565F9F /* View+Navigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +521,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OpenWeatherMVVMC/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenWeatherMVVMC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Weather";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +559,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OpenWeatherMVVMC/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenWeatherMVVMC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Weather";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -604,6 +712,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		431DE6A22A2C7101005BAEF7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		431DE6A32A2C7101005BAEF7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 431DE6A22A2C7101005BAEF7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		431DE6AB2A2C7AC4005BAEF7 /* OpenWeatherBussinessLogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenWeatherBussinessLogic;
+		};
+		431DE6AD2A2C7ACB005BAEF7 /* OpenWeatherDataAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenWeatherDataAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 435B4CC82A2AFAA200922274 /* Project object */;
 }
